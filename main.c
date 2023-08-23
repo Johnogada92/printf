@@ -5,8 +5,10 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 {
-    _printf("%b\n", 98);
-    return (0);
+	_printf("%i\n", 98);
+
+	return (0);
 }
