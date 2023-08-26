@@ -1,6 +1,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
+
 /**
   * found_octal - converts decimal numbers to octal
   * @n: octal number to print
