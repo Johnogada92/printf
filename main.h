@@ -13,7 +13,7 @@ typedef struct validTypes
 {
 	char *valid;
 	char *(*f)();
-} v_types;
+}	v_types;
 
 int _printf(const char *format, ...);
 char *(*get_valid_type(char s))(va_list);
